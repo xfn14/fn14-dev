@@ -15,7 +15,7 @@ const projectsData = [
     description: "Keep track of tasks and know what todo.",
     image: "/what-todo.png",
     github: "https://github.com/xfn14/cg",
-    website: "https://t3-what-todo.vercel.app/",
+    website: "https://wt.fn14.dev/",
   },
   {
     id: 2,
