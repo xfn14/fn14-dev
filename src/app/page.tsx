@@ -10,7 +10,7 @@ const nav = [
   { name: "Projects", href: "/projects" },
   {
     name: "Resume",
-    href: "https://cdn.discordapp.com/attachments/1310670372445880383/1313205961183199242/Andre_fn14_Vaz_CV_EN.pdf?ex=674f49db&is=674df85b&hm=94efb659914a94d2788b5abc930cb3083edbbe114ce902cdca890e860c9d34a7&",
+    href: "https://utfs.io/f/YJilwUmdv7MfrCWZPxlFqfHJ0EhViwZmMsYQeyR5lo3Ct1zA",
   },
 ];
 
