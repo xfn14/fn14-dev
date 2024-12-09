@@ -1,6 +1,9 @@
 import "@/styles/globals.css";
 import localFont from "next/font/local";
 
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
+
 import { type Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -20,7 +23,11 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" className={birdy.variable}>
-      <body className="dark font-birdy text-text">{children}</body>
+      <body className="text-text dark font-birdy">
+        {children}
+        <Analytics />
+        <SpeedInsights />
+      </body>
     </html>
   );
 }
